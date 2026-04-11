@@ -82,7 +82,7 @@ export function VendorApp({ user, onLogout, orders, reviews, complaints, menu, d
       {/* ── LIVE ORDERS ── */}
       {tab === "orders" && (
         <div className="anim">
-          <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 22 }}>
+          <div style={{ display: "flex", alignItems: "center" , justifyContent: "space-between", marginBottom: 22 }}>
             <div>
               <h2 style={{ color: "white", fontFamily: "'Inter', system-ui, sans-serif", fontSize: 26, fontWeight: 800 }}>Live Orders</h2>
               <p style={{ color: "rgba(255,255,255,.45)", fontSize: 13, marginTop: 4 }}>
@@ -448,7 +448,7 @@ export function VendorApp({ user, onLogout, orders, reviews, complaints, menu, d
             ))}
           </div>
           {/* Item popularity */}
-          <div style={{ background: "#1E293B", borderRadius: 18, padding: 24, border: "1px solid rgba(255,255,255,.05)" }}>
+          <div style={{ background: "#1E293B", borderRadius:  i18, padding: 24, border: "1px solid rgba(255,255,255,.05)" }}>
             <div style={{ color: "#38BDF8", fontWeight: 700, fontSize: 15, marginBottom: 18 }}>Item Performance</div>
             {(menu[user.cafe] || []).map((item) => {
               const cnt = myOrders.reduce((a, o) => a + (o.items.find((i) => i.id === item.id)?.qty || 0), 0);
