@@ -12,7 +12,7 @@ export const PICS = {
   settings: U("1581092160607-ee22621dd758", 100),
   money: U("1554224155-6726b3ff858f", 100),
   check: U("1513530534585-c7b1394c6d51", 100),
-  logo: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230C3B2E'/%3E%3Ccircle cx='50' cy='50' r='38' fill='%23F59E0B'/%3E%3Ctext x='50' y='62' font-family='Arial, sans-serif' font-size='32' font-weight='900' text-anchor='middle' fill='%230C3B2E'%3ECCH%3C/text%3E%3C/svg%3E",
+  logo: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230C3B2E'/%3E%3Ccircle cx='50' cy='50' r='40' fill='%23FEFCE8' stroke='%23F59E0B' stroke-width='4'/%3E%3Ctext x='50' y='60' font-family='Arial Black, sans-serif' font-size='30' font-weight='900' text-anchor='middle' fill='%23F59E0B'%3ECCH%3C/text%3E%3C/svg%3E",
   admin: U("1550751827-4bd374c3f58b", 100),
   student: U("1523240715634-9426d739600a", 100),
   vendor: U("1556742044-3c52d6e88c62", 100),
